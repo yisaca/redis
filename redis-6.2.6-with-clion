@@ -1,0 +1,7 @@
+1.  下载6.2.6源码
+2.  通过clion以project方式打开 REDIS_DOWNLOAD_DIR 目录下的 Makefile
+3.  在REDIS_DOWNLOAD_DIR目录下执行make命令，确认REDIS_DOWNLOAD_DIR/src下生成了redis-server/redis-cli等可执行文件
+4.  编辑clion的configuration，指定executable为REDIS_DOWNLOAD_DIR/src下的redis-server
+5.  debug
+
+关键点在于先通过clion导入Makefile，然后再执行make命令
